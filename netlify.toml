@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+# Optionally set node version here if Netlify needs it, e.g.
+# NODE_VERSION = "18"
+
+[functions]
+  # No Netlify Functions configured for this project
+
+[context.production.environment]
+  # Example: set environment variables for production here if desired
+  # REACT_APP_API_URL = "https://api.example.com"

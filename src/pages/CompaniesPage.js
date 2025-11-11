@@ -6,13 +6,14 @@ import Loader from "../components/Loader";
 import companiesData from "../data/companies.json";
 import "./CompaniesPage.css";
 
-function groupByCountry(list) {
-  return list.reduce((acc, item) => {
-    acc[item.country] = acc[item.country] || [];
-    acc[item.country].push(item);
-    return acc;
-  }, {});
-}
+// ❌ Removed groupByCountry since it's unused (to fix Netlify build error)
+// function groupByCountry(list) {
+//   return list.reduce((acc, item) => {
+//     acc[item.country] = acc[item.country] || [];
+//     acc[item.country].push(item);
+//     return acc;
+//   }, {});
+// }
 
 export default function CompaniesPage() {
   const [companies, setCompanies] = useState([]);
@@ -47,7 +48,7 @@ export default function CompaniesPage() {
     });
   }, [companies, search, location, industry]);
 
-  //const grouped = useMemo(() => groupByCountry(filtered), [filtered]);
+  // const grouped = useMemo(() => groupByCountry(filtered), [filtered]); // ❌ removed unused line
 
   // ✅ Pagination logic
   const pageCount = Math.ceil(filtered.length / companiesPerPage);
