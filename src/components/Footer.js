@@ -10,9 +10,10 @@ function Footer() {
           <p className="muted">© {new Date().getFullYear()} • Built by you</p>
         </div>
         <div className="footer-links">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Contact</a>
+         <a href="/" aria-label="Privacy Policy">Privacy</a>
+<a href="/" aria-label="Terms and Conditions">Terms</a>
+<a href="/" aria-label="Contact Us">Contact</a>
+
         </div>
       </div>
     </footer>

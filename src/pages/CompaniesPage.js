@@ -47,7 +47,7 @@ export default function CompaniesPage() {
     });
   }, [companies, search, location, industry]);
 
-  const grouped = useMemo(() => groupByCountry(filtered), [filtered]);
+  //const grouped = useMemo(() => groupByCountry(filtered), [filtered]);
 
   // ✅ Pagination logic
   const pageCount = Math.ceil(filtered.length / companiesPerPage);
