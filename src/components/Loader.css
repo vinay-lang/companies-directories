@@ -1,0 +1,7 @@
+.loader-wrap { display:flex; justify-content:center; padding:40px 0; }
+.loader-box { display:flex; align-items:center; gap:14px; background:#fff; padding:18px 26px; border-radius:12px; box-shadow:0 6px 20px rgba(2,6,23,0.08); }
+.loader-text { font-weight:600; color:#111827; }
+.dots { display:inline-block; width:26px; }
+@keyframes dot { 50% { transform: translateY(-4px); } }
+.dots::after { content:""; display:inline-block; animation: dot 0.9s infinite; }
+.dotdot { font-size:28px; }

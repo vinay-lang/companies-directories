@@ -1,0 +1,15 @@
+.home-hero { padding:36px 0 60px; }
+.hero-inner { display:flex; gap:28px; align-items:flex-start; justify-content:space-between; }
+.hero-left { flex:1; }
+.hero-left h2 { font-size:34px; margin:0 0 8px; }
+.hero-left .muted { color:#6b7280; margin-bottom:16px; }
+.hero-search { display:flex; gap:10px; margin-top:12px; }
+.hero-search input { padding:12px 14px; border-radius:10px; border:1px solid #e6eef6; width:60%; }
+.hero-search button { padding:12px 18px; background:#0f1724; color:#fff; border-radius:10px; border:none; cursor:pointer;}
+.hero-right { width:45%; }
+.trending-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+@media (max-width:900px) {
+  .hero-inner { flex-direction:column; }
+  .hero-right { width:100%; }
+  .hero-search input { width:100%; }
+}

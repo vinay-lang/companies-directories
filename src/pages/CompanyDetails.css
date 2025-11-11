@@ -1,0 +1,23 @@
+.company-details {
+  padding: 40px 0;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: #1f2937;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.details-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  line-height: 1.6;
+}

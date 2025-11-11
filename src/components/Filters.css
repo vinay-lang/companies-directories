@@ -1,0 +1,19 @@
+.filters-container {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: #ffffff;
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters-container input,
+.filters-container select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  width: 100%;
+}
